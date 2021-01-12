@@ -7,7 +7,7 @@ class Solution {
                 continue;
             else{
                 if(firstTime || (i > 0 && nums[i+1] < nums[i-1])){
-                    System.out.println(i+1+ " "+ (i-1));
+//                     System.out.println(i+1+ " "+ (i-1));
                     return false;
                 }
                 firstTime = true;
